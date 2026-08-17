@@ -1,0 +1,14 @@
+---
+apiVersion: featuremanagement.cloudbees.io/v1alpha1
+kind: flag
+
+flag: FM-PERMANENT_FLAG
+flagType: boolean
+description: This is the permanent flag to test the flag update after each deployment.
+labels:
+
+availableValues:
+  - "true"
+  - "false"
+
+isPermanent: false
